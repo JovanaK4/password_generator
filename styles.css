@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+}
+#container{
+    background-color: #1F2937;
+    color: white;
+    padding: 5%;
+    width: 30%;
+    margin: 5% auto;
+    border-radius: 20px;
+    box-shadow: 5px 5px 30px black;
+    font-family: "Karla", sans-serif;
+}
+h1{
+    font-weight: 800;
+    margin: 3% 0%;
+}
+span{
+    color: #4ADF86;
+}
+
+p{
+    margin: 2% 0%;
+    color: #D5D4D8;
+    font-weight: 400;
+}
+
+input{
+    display: block;
+    width: 50%;
+    background-color: #273549;
+    color:grey;
+    border: none;
+    padding: 2%;
+    margin-top: 10%;
+    border-radius: 10px;
+}
+
+button{
+    margin: 3% 0 1% 0;
+    background-color: #10B981;
+    padding: 2% 2%;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.348);
+    font-family: "Karla", sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+#line{
+    background-color: #2F3E53;
+    height: 1px;
+    width: 100%;
+    margin: 5% auto;
+}
+
+.passwords{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ 
+.password{
+    background-color: #273549;
+    width: 45%;
+    height: 25px;
+    padding: 2% 1% 1% 1%;
+    border-radius: 8px;
+    color: #55F991;
+    text-align: center;
+}
+
+.copyBtn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.copy{
+    width: 25%;
+    background-color: #10b98157;
+}

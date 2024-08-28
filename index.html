@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Password generator</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='styles.css'>
+    <script src='main.js'></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <h1>Generate a <span>random password</span></h1>
+        <p>Never use an insecure password again.</p>
+        <input type="text" placeholder="Unesite broj željenih karaktera">
+        <button id="generate">Generate password</button>
+        <div id="line"></div>
+        <div class="passwords">
+            <div class="password" id="password-one"></div>
+            <div class="password" id="password-two"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
